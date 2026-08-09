@@ -9,6 +9,7 @@ A no-login discipleship quick course built with Next.js, TypeScript, and Tailwin
 - KJV Bible passage lookup through a server route
 - Course-linked Greek/Hebrew lexicon notes
 - Flashcards for study and review
+- Focused app routes instead of one long page: `/`, `/lessons/[id]`, `/bible`, and `/flashcards`
 - Local-only progress tracking with browser `localStorage`
 - No sign-in, no database, no user profile, and no personal data collection
 
@@ -40,4 +41,3 @@ This project is ready for Vercel:
 ```bash
 vercel --prod
 ```
-
